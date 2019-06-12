@@ -18,7 +18,7 @@ app.use(express.json());
 // create a GET route
 app.get("/express_backend", (req, res) => {
   res.send({
-    express: "YOUR EXPRESS BACKEND IS CONNECTED TO REACT"
+    express: "Making DGD Drafting Simpler"
   });
 });
 
@@ -32,7 +32,7 @@ app.post("/newAddress", function(req, res, next) {
 
 // Routes
 // =============================================================
-require("./routes/api-routes.js")(app);
+require("./routes/api-routes/addressbook")(app);
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
