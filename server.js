@@ -2,7 +2,7 @@
 const express = require('express');
 const db = require("./models")
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 // console.log that your server is up and running
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
