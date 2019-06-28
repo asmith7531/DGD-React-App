@@ -8,4 +8,4 @@ SELECT * FROM AddressBooks;
 SELECT * FROM Users;
 SELECT * FROM Orders;
 SELECT * FROM Hazmats;
-SELECT * FROM Shipments;
+SELECT * FROM Shipments

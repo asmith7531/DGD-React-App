@@ -1,4 +1,6 @@
 //requireing all dependencies
+require('dotenv').config()
+const config = require("./config/config")
 const express = require('express');
 const db = require("./models")
 const app = express();

@@ -10,7 +10,6 @@ module.exports = {
       zipcode: 08822,
       isBetaMember: false
     }], {});
-
   },
 
   down: (queryInterface, Sequelize) => {
